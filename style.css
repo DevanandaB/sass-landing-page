@@ -219,6 +219,61 @@ img {
     padding: 30px;
     text-align: center;
 }
+.faq {
+    padding: 40px 0;
+}
+.faq-group {
+    border-bottom: 1px solid #ccc;
+    padding: 30px;
+}
+.faq .faq-group .faq-group-header {
+    padding: 20px 0;
+    margin-bottom: 15px;
+    position: relative;
+}
+.faq .faq-group .faq-group-header h4 {
+    font-weight: 600;
+    font-size: 20px;
+    width: 95%;
+}
+.faq .faq-group .faq-group-header i {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    top: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.faq .faq-group .faq-group-header i:hover {
+    background-color: rgb(234, 234, 234);
+}
+.faq .faq-group .faq-group-header i:active {
+    background-color: rgb(177, 174, 174);
+    border-radius: 20px;
+}
+.faq .faq-group .faq-group-body {
+    display: none;
+}
+.faq .faq-group .faq-group-body.open {
+    display: block;
+}
+.faq-button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.faq button {
+    padding: 10px 20px;
+    margin: 5px;
+}
+.faq h2 {
+    font-size: 33px;
+    font-weight: normal;
+    text-align: center;
+    padding: 30px;
+}
 .container-sm {
     max-width: 800px;
     padding: 0 16px;
