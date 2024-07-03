@@ -274,6 +274,46 @@ img {
     text-align: center;
     padding: 30px;
 }
+footer {
+    background-color: rgb(10, 10, 10);
+    padding: 30px;
+}
+.footer .card {
+    background-color: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 0;
+}
+.footer button {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+}
+.footer input {
+    width: 100%;
+    margin: 10px;
+    margin-left: 0;
+    padding: 6px;
+}
+.footer .info {
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.footer .info li {
+    padding-top: 10px;
+}
+footer i {
+    color: white;
+}
+.footer-grid {
+    color: #fff;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
 .container-sm {
     max-width: 800px;
     padding: 0 16px;
